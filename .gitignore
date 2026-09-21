@@ -18,7 +18,7 @@ lib/
 lib64/
 parts/
 sdist/
-var/
+/var/
 wheels/
 share/python-wheels/
 *.egg-info/
@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific
+.venv*/
+code_aux/
+nohup.out
+results/
+logs/

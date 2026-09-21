@@ -1,0 +1,14 @@
+# Nonnegative CoLiDE: dependencies pinned to the Python 3.10 environment used
+# for the experiments. Install with:  pip install -r requirements.txt
+numpy==1.26.4
+scipy==1.11.4
+scikit-learn==1.1.1
+pandas==2.2.2
+matplotlib==3.8.4
+networkx==3.3
+joblib==1.4.2
+tqdm==4.66.3
+tensorflow==2.15.1    # GOLEM baseline (baselines/golem.py), used by number_samples.py and different_vars.py
+ipython==8.24.0       # src/utils.py displays result tables with IPython.display
+ipykernel==6.29.4     # Jupyter kernel for the notebooks
+notebook==7.2.2       # Jupyter front end (also provides nbconvert)
